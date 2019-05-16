@@ -1,0 +1,108 @@
+// Note: This uses the light values in the provided source code.
+constants shiny_purple 0.3 0.2 0.8 0.3 0 0 0.3 0.2 0.8
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+
+push
+rotate z 30
+rotate x 30
+move 300 300 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 50 50 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 50 50 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 200 200 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 70 70 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 70 70 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 500 500 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 300 300 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 50 50 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 50 50 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 200 200 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 70 70 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 70 70 0
+box shiny_purple -80 0 40 80 100 80
+
+push
+rotate z 30
+rotate x 30
+move 500 500 0
+box shiny_purple -80 0 40 80 100 80
+
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+
+push
+rotate z 30
+rotate x 45
+move 500 200 0
+torus shiny_purple -80 0 -25 20 100
+
+display
+save better.png

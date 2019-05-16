@@ -113,12 +113,13 @@ def run(filename):
             stack[-1] = [ i[:] for i in s]
         elif cmd == 'rotate':
             theta = float(args[1]) * (math.pi / 180)
+			
             if args[0] == 'x':
                 r = make_rotX(theta)
             elif args[0] == 'y':
                 r = make_rotY(theta)
             else:
-                tmp = make_rotZ(theta)
+                r = make_rotZ(theta)
             matrix_mult( stack[-1], r )
             stack[-1] = [ i[:] for i in r]
         elif cmd == 'clear':
